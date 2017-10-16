@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	 	<style>
+ 	* { 
+border: 1px solid black; 
+}
+ 	</style>
+	<title>Таблица и формы</title>
+</head>
+<body>
+	<table>
+		<caption>Добыча драгоценных камней</caption>
+		<thead>
+			<tr>
+				<td>Наименование драгоценного камня</td>
+				<td>2008</td>
+				<td>2009</td>
+				<td>2010</td>
+				<td>2011</td>
+				<td>2012</td>
+				<td>2013</td>
+				<td>2014</td>
+				<td>2015</td>
+				<td>2016</td>
+			</tr>	
+		</thead>
+		<tfoot>
+			<td>Итого:</td>
+			<td colspan="9">10 000 000 000</td>
+		</tfoot>
+		<tbody>
+			<tr>
+				<td>Сапфир</td>
+				<td rowspan="2">1 483</td>
+				<td>1 489</td>
+				<td>1 000</td>
+				<td>1 200</td>
+				<td>998</td>
+				<td>876</td>
+				<td>768</td>
+				<td>820</td>
+				<td>937</td>
+			</tr>
+			<tr>
+				<td>Алмаз</td>
+				<td>542</td>
+				<td>587</td>
+				<td>653</td>
+				<td>870</td>
+				<td>999</td>
+				<td>432</td>
+				<td>389</td>
+				<td>500</td>
+			</tr>
+			<tr>
+				<td>Аметист</td>
+				<td>683</td>
+				<td rowspan="3">1 743</td>
+				<td>800</td>
+				<td colspan="4">765</td>
+				<td>659</td>
+				<td>930</td>
+			</tr>
+			<tr>
+				<td>Рубин</td>
+				<td>120</td>
+				<td>450</td>
+				<td>435</td>
+				<td>4 670</td>
+				<td>598</td>
+				<td>250</td>
+				<td>1 000</td>
+				<td>20</td>
+			</tr>
+			<tr>
+				<td>Изумруд</td>
+				<td>130</td>
+				<td>10 000</td>
+				<td>34</td>
+				<td rowspan="3">149</td>
+				<td colspan="4">22 000</td>
+			</tr>
+			<tr>
+				<td>Топаз</td>
+				<td>250</td>
+				<td>400</td>
+				<td>10</td>
+				<td>5 000</td>
+				<td>14 000</td>
+				<td colspan="3">20 000</td>
+			</tr>
+			<tr>
+				<td>Циркон</td>
+				<td>8 000</td>
+				<td>3 500</td>
+				<td>345</td>
+				<td>234</td>
+				<td>2 789</td>
+				<td>3 678</td>
+				<td rowspan="2">997</td>
+				<td>1 000</td>
+			</tr>
+			<tr>
+				<td>Бриллиант</td>
+				<td>100 000</td>
+				<td>200 000</td>
+				<td>80 000</td>
+				<td colspan="2">10 000</td>
+				<td>1 348</td>
+				<td>5 000</td>
+				<td>3 000</td>
+			</tr>
+		</tbody>
+	</table>
+	<form>
+		<input type="text" name="Текстовое поле" id="text1"><label for="text1"></label>
+	</form>
+	<form>
+		<input type="password" name="Поле для ввода пароля" id="password1"><label for="password1"></label>
+	</form>
+	<form>
+		<input type="checkbox" name="Флаг" id="checkbox1"><label for="checkbox1"></label>
+	</form>
+	<form>
+		<input type="radio" name="Переключатель" id="radio1"><label for="radio1"></label>
+	</form>
+	<form>
+		<input type="file" name="Загрузка файла" id="file1"><label for="file1"></label>
+	</form>
+	<form>
+		<input type="reset" name="Кнопка сброса значений">
+	</form>
+	<form>
+		<input type="submit" name="Кнопка отправки данных">
+	</form>
+	<form>
+		<input type="button" name="Кнопка">
+	</form>
+	<form>
+		<input type="email" name="Поле для e-mail" id="email1"><label for="email1"></label>
+	</form>
+	<form>
+		<input type="search" name="Поле для поисковых запросов" id="search1"><label for="search1"></label>
+	</form>
+	<form>
+		<input type="tel" name="Поле для номера телефона" id="tel1"><label for="tel1"></label>
+	</form>
+	<form>
+		<input type="url" name="Поле для URL адреса" id="url1"><label for="url1"></label>
+	</form>
+	<form>
+		<input type="number" name="Поле для чисел" min="0" max="100" step="10" id="number1"><label for="number1"></label>
+	</form>
+	<form>
+	<input type="range" name="Ползунок" min="10" max="50" step="3" id="range1"><label for="range1"></label>
+	</form>
+</body>
+</html>
